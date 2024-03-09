@@ -1,0 +1,17 @@
+.endTitle {
+    margin: 36px 0;
+    font-size: 2.5rem; 
+}
+
+.retryBtn {
+    margin-top: 24px;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+span {
+    font-size: 1.25rem;
+    color: #ecfa00;
+}

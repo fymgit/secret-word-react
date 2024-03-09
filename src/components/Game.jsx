@@ -38,7 +38,7 @@ const Game = ({
       <div className={style.wordContainer}>
         {letters.map((letter, index) => (
           guessedLetters.includes(letter) ? (
-            <span key={index} className={style.letter}>S{letter}</span> 
+            <span key={index} className={style.letter}>{letter}</span> 
             
           ) : (
             <span key={index} className={style.blankSquare}></span>
@@ -65,7 +65,7 @@ const Game = ({
       <div className={style.wrongLettersContainer}>
         <p>Letras erradas:</p>
         {wrongLetters.map((letter, index) => (
-          <span key={index}>{letter}</span>
+          <span key={index}>{letter}, </span>
         ))}
       </div>
     </div>
